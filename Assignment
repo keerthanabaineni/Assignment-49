@@ -137,4 +137,17 @@ enter the weight in kgs 49
 enter the height in meters 1.6
 bmi=19.141406
 >>your bmi is 19.14 and have normal weight.
+ 
+11.write a program to find average of three numbers.
+first_number=int(input("enter a number"))
+second_number=int(input("enter a number"))
+third_number=int(input("enter a number"))
+avg=(first_number+second_number+third_number)/3
+print(avg)
+output:
+enter a number 2
+enter a number 4 
+enter a number 5
+avg=3.666
+
 
