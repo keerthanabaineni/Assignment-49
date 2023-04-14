@@ -86,4 +86,14 @@ output:
 >>your name has 9 letters
 
 
+7.write a program to find out how many days,months we have left if we live until 100 years old.
+age=int(input("enter your age "))
+years_left=100-age
+days_left=years_left*365
+months_left=years_left*12
+weeks_left=years_left*52
+print(f"you have {days_left} days.{weeks_left}weeks and {months_left}months left")
+output:
+>>enter the age 18
+>>you have 29930 days 4264 weeks and 984 months left
 
