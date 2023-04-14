@@ -10,3 +10,56 @@ print(f"the divide is{divide}")
 Output:
 >>the sum is 30
 >>the divide is 2
+
+2.write program to perform substraction and power of  the numbers.
+first_number=int(input("enter the first number"))
+second_number=int(input("enter the second number"))
+#performing the substraction 
+sub=first_number-second_number
+print(sub)
+#performing the power of the numbers
+power=first_number**second_number
+print(power)
+output:
+>>enter the first number 6
+>>enter the second number 3
+>>sub=3
+>>power=216
+
+3.write a program to find the area of rhombus.
+#entering the first diagonal
+d1=int(input("enter the first diagonal"))
+#entering the second diagonal
+d2=int(input("enter the second diagonal"))
+area=(d1*d2)/2
+print(f"area of rhombus is{area}")
+output:
+>>enter the first diagonal 6
+>>enter the second diagonal 8
+>>area=24
+
+4.write a program to find given triangle is either equilateral,isosceles scalene.
+#entering the first side
+a=int(input("enter the first side"))
+#entering the second side
+b=int(input("enter the second side"))
+#entering the third side
+c=int(input("enter the third side"))
+if a==b==c:
+    print("it is a equilateral traingle")
+elif a==b!=c:
+ print("it is a isosceles traingle")
+elif a!=b==c:
+ print("it is a isosceles traingle")
+else:
+    print("it is scalene  traingle")
+output:
+>>enter the first side 15
+>>enter the second side 15
+>>enter the third side 15
+>>it is a equilateral  triangle
+>>enter the first side 20
+>>enter the second side 14
+>>enter the third side 20
+>>it is a isosceles traingle
+
