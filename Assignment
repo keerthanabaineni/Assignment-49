@@ -63,3 +63,27 @@ output:
 >>enter the third side 20
 >>it is a isosceles traingle
 
+5.write a program to find  distance between the two points.
+x1=int(input("enter the x1"))
+x2=int(input("enter the x2"))
+y1=int(input("enthe the y1"))
+y2=int(input("enter the y2"))
+distance=(((x2-x1)**2+(y2-y1)**2))**0.5
+print(f"the distance between(x1,x2)and (y1,y2)is {distance}")
+output:
+>>enter the x1 4
+>>enter the x2 6
+>>enter the y1 0
+>>enter the y2 6
+the distance between (4,6)and(0,6) is 6.32455
+
+6.write a program to find letters in a name.
+name=input("enter a name")
+length=len(name)
+print(f"your name has {length}letters")
+output:
+>>name=keerthana
+>>your name has 9 letters
+
+
+
