@@ -97,5 +97,12 @@ output:
 >>enter the age 18
 >>you have 29930 days 4264 weeks and 984 months left
 
-8.
+8.write a program to print the digit at one's place  of a number.
+num=int(input("enter a number")
+digit_at_onces_place=num%10
+print("the digit at ones place of "+str(num)+"is"+str(digit at ones place))
+output:
+>>enter any number 12345
+the digit at ones place of 12345 is 5
+
 
