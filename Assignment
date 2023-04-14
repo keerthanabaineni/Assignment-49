@@ -1,0 +1,12 @@
+1.write a program to find sum and division and the answer will be in integers.
+a=20
+b=10
+#addition of two numbers
+sum=int(a)+int(b)
+print(f"the sum is{sum}")
+#division of two numbers
+divide=int(a)//int(b)
+print(f"the divide is{divide}")
+Output:
+>>the sum is 30
+>>the divide is 2
