@@ -1,4 +1,4 @@
-81.write a program to find sum and division and the answer will be in integers.
+1.write a program to find sum and division and the answer will be in integers.
 a=20
 b=10
 #addition of two numbers
@@ -116,4 +116,25 @@ output:
 enter the time 4
 enter the rate 3
 the simple intrest is 240
+
+10.write a program to find the bmi and his health.
+weight=float(input("enter weightin kg"))
+height=float(input("enter height in meters"))
+bmi=weight/height**2
+if bmi<18.5:
+  print(f"your BMi is{bmi}and you are under weight")
+  elif bmi<25:
+        print(f"your BMI is {bmi}and have a normal weight")
+  elif bmi<30:
+        print(f"your BMI is {bmi}and you have over weight")
+  elif bmi<35:
+        print(f"yourBMI is{bmi} and you have obesed")
+else:
+   print(f"your BMI is {bmi} and you  are clinically obesed")
+    
+output:
+enter the weight in kgs 49
+enter the height in meters 1.6
+bmi=19.141406
+>>your bmi is 19.14 and have normal weight.
 
