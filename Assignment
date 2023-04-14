@@ -1,4 +1,4 @@
-1.write a program to find sum and division and the answer will be in integers.
+81.write a program to find sum and division and the answer will be in integers.
 a=20
 b=10
 #addition of two numbers
@@ -105,4 +105,15 @@ output:
 >>enter any number 12345
 the digit at ones place of 12345 is 5
 
+9.write a program to find the simple interest.
+pr=int(input("enter the pricipal value"))
+time =int(input("enter the time"))
+rate=int(input("enter the rate"))
+si=(pr*time*rate)/100
+print(f"the simple intrest is {si}")
+output:
+>>enter the pricipal value 2000
+enter the time 4
+enter the rate 3
+the simple intrest is 240
 
